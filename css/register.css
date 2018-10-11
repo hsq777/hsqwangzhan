@@ -1,0 +1,251 @@
+.wrapper{
+    background: #f9f9f9;
+}
+.main{
+    width: 855px;
+    height: 550px;
+    background: white;
+    margin: 0 auto;
+}
+.main-logo{
+    height: 55px;
+    background: url("../images/mi_03.jpg")no-repeat center;
+}
+.title h4{
+    text-align: center;
+    padding-top:48px;
+    color: #333;
+    font-size: 30px;
+}
+/*注册主体*/
+.box{
+    width: 855px;
+    height: 390px;
+}
+.register-main{
+    height: 330px;
+}
+.main-inp{
+    width: 332px;
+    margin: 0 auto;
+}
+.main-inp h4{
+    font-size: 14px;
+    color: #333;
+    padding: 20px 0 5px 0;
+}
+.country{
+    width: 332px;
+    height: 42px;
+    border: 1px solid #e8e8e8;
+    position: relative;
+    z-index: 3;
+}
+/*国家/地区下拉框*/
+.country-hidden{
+    position: absolute;
+    width: 332px;
+    border: 1px solid #e8e8e8;
+    border-top: 0;
+    left: -1px;
+    display: none;
+}
+.country-hidden li{
+    width: 332px;
+    height: 40px;
+    border-top: 1px solid #e8e8e8;
+    background: #fff;
+    font-size: 14px;
+    line-height: 40px;
+}
+.country-list{
+    width: 274px;
+    height: 42px;
+    border-right: 1px solid #e8e8e8;
+    margin: 0;
+    padding-left: 15px;
+    line-height: 42px;
+    color: #555;
+    font-size: 14px;
+}
+.icon-unie621{
+    position: absolute;
+    top: 13px;
+    left: 303px;
+    color: #e8e8e8;
+}
+.register-text{
+    font-size: 14px;
+    color: #666;
+    padding-top: 3px;
+}
+.phone-box{
+    width: 332px;
+    height: 42px;
+    border: 1px solid #e8e8e8;
+    position: relative;
+}
+.phone{
+    width: 73px;
+    height: 42px;
+    border-right: 1px solid #e8e8e8;
+}
+/*电话前缀*/
+.phone-hidden{
+    position: absolute;
+    width: 332px;
+    border: 1px solid #e8e8e8;
+    border-top: 0;
+    left: -1px;
+    display: none;
+}
+.phone-hidden li{
+    width: 332px;
+    height: 40px;
+    border-top: 1px solid #e8e8e8;
+    background: #fff;
+    position: relative;
+}
+
+.phone-hidden .recode-code{
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    color: #9d9d9d;
+    font-size: 12px;
+}
+.phone-hidden .recode-country{
+    font-size: 14px;
+    color: #000;
+    line-height: 40px;
+}
+.icon-xiangxia{
+    position: absolute;
+    top: 13px;
+    left: 42px;
+    color: #9d9d9d;
+    font-size: 10px;
+}
+.phone-list{
+    line-height: 42px;
+    padding-left: 9px;
+    color: #555;
+    font-size: 14px;
+}
+.phone-box .inp{
+    width: 236px;
+    height: 20px;
+    border: 0;
+    position: absolute;
+    top: 1px;
+    left: 74px;
+    padding: 10px;
+    color: #555;
+}
+.phone-box .inp-error{
+    width: 236px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: 74px;
+    padding: 10px;
+    color: #555;
+    border: 1px solid red;
+}
+/*错误提示*/
+.error{
+    height: 20px;
+    position: relative;
+    display: none;
+}
+.error i{
+    color: #ff6700;
+    display: inline-block;
+    margin-top: 5px;
+}
+.error p{
+    font-size: 14px;
+    color: #f66;
+    position: absolute;
+    left: 19px;
+    top: 3px;
+}
+.err-blank,.err-false{
+    display: none;
+}
+/*按钮*/
+.register-btn{
+    width: 332px;
+    height: 42px;
+    margin-top: 20px;
+    background: #ff6700;
+}
+.register-btn .btn{
+    width: 100%;
+    height: 42px;
+    color: #fff;
+    text-align: center;
+    line-height: 42px;
+    display: block;
+}
+.register-btn:hover{
+    background: #fc845b;
+}
+/*协议*/
+.register-http{
+    width: 398px;
+    height: 60px;
+    margin: 0 auto;
+}
+.register-http .icon-trues-active{
+    color: #ff6600;
+    font-size: 22px;
+    padding-top: 2px;
+    display: inline-block;
+}
+.register-http p{
+    font-size: 14px;
+    color: #9d9d9d;
+    display: inline-block;
+}
+.register-http p span{
+    color: #333;
+    font-weight: bold;
+}
+/*bottom*/
+#bottom{
+    width: 100%;
+    background: #f9f9f9;
+}
+.bottom{
+    width: 1131px;
+    height: 78px;
+    margin: 0 auto;
+    padding-top: 12px;
+}
+.list{
+    width: 275px;
+    height: 19px;
+    margin: 0 auto;
+}
+.list li{
+    float: left;
+    padding: 0 11px 0 14px;
+    font-size: 14px;
+    height: 19px;
+    background: url("../images/bot_03.jpg")no-repeat right;
+}
+.list li:last-child{
+    background: none;
+}
+.list li a{
+    color: #757575;
+}
+.bq{
+    display: block;
+    width: 566px;
+    height: 19px;
+    margin: 10px auto;
+    font-size: 14px;
+    color: #757575;
+}
